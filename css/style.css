@@ -1,0 +1,68 @@
+/*
+    font-family: 'Roboto', sans-serif; ----- https://fonts.google.com/specimen/Roboto
+*/
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    text-align: center;
+    margin: 0% 20% 0%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+a, a:visited {
+    color: #333;
+    text-decoration: inherit;
+}
+a:hover {
+    color: #44F;
+}
+
+.title-rule {
+    border-top: 2px dashed #222;
+    width: 90%;
+}
+
+.section-rule {
+    border-top: 2px solid #222;
+    width: 50%;
+}
+
+.trailing-rule {
+    border-top: 2px dashed #222;
+    width: 10%;
+}
+
+.text-body {
+    padding: 1% 10% 1%;
+    border-radius: 5px;
+
+    background-color: #D8DDDD;
+    text-align: left;
+    text-indent: 2em;
+}
+
+.text-body > :is(h1, h2, h3, h4, h5, h6) {
+    text-align: center;
+}
+
+.spoiler {
+    color: #000;
+    background-color: #000;
+}
+
+.spoiler:hover {
+    color: #EFF;
+}
