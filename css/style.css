@@ -30,6 +30,10 @@ a:hover {
     color: #44F;
 }
 
+.website-title {
+    color: #2a8eda;
+}
+
 .title-rule {
     border-top: 2px dashed #222;
     width: 90%;
