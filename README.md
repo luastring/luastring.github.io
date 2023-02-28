@@ -1,2 +1,2 @@
 # luastring.github.io
-My own personal site
+My own [personal website](https://luastring.github.io)
