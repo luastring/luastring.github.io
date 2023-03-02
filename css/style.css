@@ -24,12 +24,29 @@ h2 {
 }
 
 ul {
-    text-align: center;
-    list-style-type: none;
+    display: inline-block;
+    margin: auto;
+    list-style: disc;
+}
+
+li {
+    text-align: left;
+}
+
+img {
+    object-fit: contain;
+}
+
+section {
+    margin: 0% 0% 2%;
+}
+
+#projects-list {
+    margin: 1% 0% 2%;
 }
 
 .project-link {
-    font-size: 2rem;
+    font-size: 1.1rem;
     margin: 0%;
     padding: 0%;
     text-align: center;
@@ -63,7 +80,7 @@ a:hover {
 }
 
 .text-body {
-    padding: 1% 10% 1%;
+    padding: 2% 10% 4%;
     border-radius: 5px;
 
     background-color: #D8DDDD;
@@ -73,6 +90,10 @@ a:hover {
 
 .text-body > :is(h1, h2, h3, h4, h5, h6) {
     text-align: center;
+}
+
+.text-body img {
+    border-radius: 5px;
 }
 
 .spoiler {
